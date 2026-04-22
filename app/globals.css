@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f0f1c;
+  --ink: #1a1a2e;
+  --gold: #d4a843;
+  --emerald: #10b981;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: #e9e9f3;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .glass {
+    @apply rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl shadow-glass;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/60 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-gold text-ink hover:bg-gold-300 shadow-gold;
+  }
+
+  .btn-secondary {
+    @apply btn border border-white/15 bg-white/5 text-white hover:border-white/30 hover:bg-white/10;
+  }
+
+  .btn-ghost {
+    @apply btn text-white/80 hover:text-white;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/80;
+  }
+
+  .section {
+    @apply py-20 sm:py-28;
+  }
+
+  .h-display {
+    @apply font-display font-semibold tracking-tight;
+  }
+
+  .gradient-text {
+    background: linear-gradient(120deg, #fff 0%, #f0d98a 40%, #d4a843 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .divider-glow {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(212, 168, 67, 0.4),
+      transparent
+    );
+  }
+}
+
+@layer utilities {
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 60%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+::selection {
+  background: #d4a843;
+  color: #1a1a2e;
+}

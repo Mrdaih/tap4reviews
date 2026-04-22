@@ -1,0 +1,43 @@
+# Tap4Reviews
+
+> NFC-powered Google review cards for UAE restaurants. Guests tap a card with their phone and are taken straight to the restaurant's Google review page — no app, no QR scanning, no friction.
+
+Tap4Reviews is built for the UAE F&B industry and operates from Dubai. The product pairs physical NFC cards (with printed QR backup) with a SaaS dashboard for card management and tap analytics. Every card is programmed to a Google review URL chosen by the restaurant owner and can be updated at any time from the dashboard.
+
+## Core product
+
+- NFC + QR dual-mode cards. Every Tap4Reviews card has an embedded NFC chip and a printed QR code on the reverse as a universal fallback.
+- Programmable redirects. Card owners can change the target URL per card from the dashboard; changes take effect immediately.
+- Tap analytics. Every tap is logged (timestamp, approximate country, anonymised device type) and visualised per card and per day.
+- UAE-based support via WhatsApp.
+
+## Pricing
+
+- Single card: AED 149 (1 card, dashboard access).
+- 5-Pack: AED 599 (5 cards, basic analytics).
+- 10-Pack: AED 1,099 (10 cards, advanced analytics, optional branding).
+- Custom branded pack: from AED 1,999 (full print customization, starts at 20 cards).
+
+All prices in AED, VAT inclusive. Shipping within the UAE.
+
+## Pages
+
+- / — homepage, hero, product overview, testimonials, FAQ.
+- /pricing — four product tiers with AED pricing and comparison table.
+- /how-it-works — five-step walkthrough from order to review.
+- /compatibility — phone compatibility table (iPhone XS+ and all modern Android).
+- /faq — 15+ questions across general, setup, technical, and billing.
+- /about — founder story, mission, relationship with AskDaih consulting.
+- /contact — WhatsApp, email (hello@tap4reviews.com), form.
+- /blog — playbooks on Google reviews, NFC vs QR, asking without awkwardness.
+- /refund-policy, /privacy-policy, /terms-and-conditions — legal pages.
+
+## About
+
+Tap4Reviews was built inside AskDaih, a Dubai-based hospitality consulting practice. The team is small, based in Dubai, and reachable on WhatsApp.
+
+## Contact
+
+Email: hello@tap4reviews.com
+Location: Dubai, United Arab Emirates
+Primary support channel: WhatsApp
